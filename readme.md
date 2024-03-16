@@ -6,7 +6,15 @@
 
 # CSS Collapsing Margins Project
 
-This is the base project for creating HTML and SCSS/CSS.
+Collapsing Margins is the cause of most grief in UI styling. Kevin Powell provides one of the best ways to illustrate how margins collapse upon each other. Watch Kevin's video to understand more.
+
+This repo is a way for me to play around with it on my own and learn from it. Also, I like to work with SCSS and that is why I use SCSS in this project.
+
+I have added multiple *display:* type to demonstrate their effect upon collapsing margins. This is caused by the *display: block* (default display).
+
+Kevin has a few ways to solve the collapsing margin issue. You will need to decide for yourself what is the best way to solve the issue.
+
+#### *Basic Project Information*
 
 Node modules are used to facilitate building the project. Watchers will compile scss into css and copy files to the dist folder.
 
