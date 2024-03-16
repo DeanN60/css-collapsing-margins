@@ -16,6 +16,10 @@
     }
 }
 
+.note {
+    margin: 10px auto;
+    font-size: 12pt;
+}
 
 h1 {
     margin-top: 10px;
@@ -35,10 +39,6 @@ h1 {
 
 .flow-root {
     display: flow-root;
-}
-
-.inline {
-    display: inline;
 }
 
 hr {
