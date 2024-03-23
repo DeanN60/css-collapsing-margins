@@ -68,6 +68,19 @@ h1 {
     display: flow-root;
 }
 
+.compact {
+    display: compact;
+}
+
+.inline-flex {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.inline-grid {
+    display: inline-grid;
+}
+
 hr {
     width: 100%;
 }
