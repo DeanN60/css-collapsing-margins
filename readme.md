@@ -10,14 +10,16 @@ Collapsing Margins is the cause of most grief in UI styling. Kevin Powell provid
 illustrate how margins collapse upon each other. Watch Kevin's video to understand more.
 
 In the [*box* model](https://www.w3schools.com/Css/css_boxmodel.asp) the margins are on the outside of the
-border and the padding is on the inside of the border. In this repo it is the *padding* that seem to
-disappear and not the *margin*.
+border and the padding is on the inside of the border. In this demo the *padding* and *margin* collapse. 
+Pay close attention to the height of the background image of each example. The ones that have collapsing
+margins are not as high.
 
 I have added multiple *display:* type to demonstrate their effect upon collapsing margins. The 
-'*display: flex*' and '*display grid*' are working properly because they prevent the margins from
-collapsing into each other. The goal is to have the child div span the height of the parent div 
-without collapsing. In the case where there are two divs inside of the parent div, there should
-not be any space between them. See if you can solve the collapsing margins issue on your own.
+'*display: flex*', '*display: inline-flex*', '*display grid*', and '*display: inline-grid*'
+are working properly because they prevent the margins from collapsing into each other. The goal
+is to have the child div span the height of the parent div without collapsing. In the case where
+there are two divs inside of the parent div, there should not be any space between them. See if
+you can solve the collapsing margins issue on your own.
 
 Kevin has a few ways to solve the collapsing margin issue. You will need to decide for yourself what is 
 the best way to solve the issue.
