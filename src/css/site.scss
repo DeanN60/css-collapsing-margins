@@ -12,13 +12,38 @@
         opacity: .6;
         width: 70%;
         margin: 0 auto;
-        border-radius: 5px;
+        border-radius: 10px;
     }
 }
 
-.note {
-    margin: 10px auto;
-    font-size: 12pt;
+.note-banner {
+    background: #ee6352;
+    text-align: center;
+    margin: 1em 0;
+
+    &:first-of-type {
+        margin: 0 0 1em 0;
+    }
+
+    .note {
+        font-size: 18pt;
+        padding: 1em;
+        color: #ffffff;
+    }
+}
+
+.info-banner {
+    margin: 0 0 0.5em 0;
+
+    .note {
+        margin: 0 auto;
+        width: fit-content;
+        padding: 0.5em 1em;
+        font-size: 14pt;
+        background: #ee6352;
+        color: #ffffff;
+        border-radius: 1em;
+    }
 }
 
 h1 {
@@ -26,15 +51,17 @@ h1 {
 }
 
 .flex {
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
 
 .grid {
-    display: grid
+    display: grid;
 }
 
 .inline-block {
     display: inline-block;
+    padding: 1px;
 }
 
 .flow-root {
@@ -76,7 +103,7 @@ body {
     font-size: 1.25rem;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 0 1em 0;
 }
 
 a {
